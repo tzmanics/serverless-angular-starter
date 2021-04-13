@@ -1,5 +1,5 @@
 {
-  "name": "serverless-angular-starter",
+  "name": "serverless-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

@@ -25,10 +25,7 @@ module.exports = function (config) {
       suppressAll: true, // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(
-        __dirname,
-        './coverage/serverless-angular-starter'
-      ),
+      dir: require('path').join(__dirname, './coverage/serverless-angular'),
       subdir: '.',
       reporters: [{ type: 'html' }, { type: 'text-summary' }],
     },

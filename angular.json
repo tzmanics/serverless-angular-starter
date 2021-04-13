@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "serverless-angular-starter": {
+    "serverless-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/serverless-angular-starter",
+            "outputPath": "dist/serverless-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -60,18 +60,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "serverless-angular-starter:build"
+            "browserTarget": "serverless-angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "serverless-angular-starter:build:production"
+              "browserTarget": "serverless-angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "serverless-angular-starter:build"
+            "browserTarget": "serverless-angular:build"
           }
         },
         "test": {
@@ -101,18 +101,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "serverless-angular-starter:serve"
+            "devServerTarget": "serverless-angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "serverless-angular-starter:serve:production"
+              "devServerTarget": "serverless-angular:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "serverless-angular-starter",
+  "defaultProject": "serverless-angular",
   "cli": {
     "analytics": "f33e8aef-82e4-48f9-97d1-73599e666adf"
   }

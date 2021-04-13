@@ -4,7 +4,7 @@
 
 To skip all this you could also just click this button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tzmanics/serverless-angular-starter&utm_source=github&utm_medium=ng-prerender-tzm&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tzmanics/serverless-angular&utm_source=github&utm_medium=ng-prerender-tzm&utm_campaign=devex)
 
 ### Local Setup
 
